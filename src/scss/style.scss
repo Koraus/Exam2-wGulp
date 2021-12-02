@@ -1,0 +1,22 @@
+.add {
+    font-size: 30px;
+    color: red;
+    border-top: 10px red solid;
+    display: flex; //тест префіксів
+    max-width: 100px;
+    max-width: fit-content;
+} 
+
+span{
+    font-size:20px;
+    @media (max-width: 222px){ // Тест збору @media в css файл
+        font-size: 26px;
+    }
+}
+
+div{
+    font-size: 40px;
+    @media (max-width: 222px){  // Тест збору @media в css файл
+        font-size: 262px;
+    }
+}

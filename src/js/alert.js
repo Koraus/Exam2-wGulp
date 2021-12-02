@@ -1,0 +1,1 @@
+document.write(`Якщо цей текст відображається - файл alert.js успішно підєднався до script.js через     @ @ i n c l u d e ('alert.js')`)

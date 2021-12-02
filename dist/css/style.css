@@ -1,0 +1,30 @@
+.add {
+  font-size: 30px;
+  color: red;
+  border-top: 10px red solid;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 100px;
+  max-width: -webkit-fit-content;
+  max-width: -moz-fit-content;
+  max-width: fit-content;
+}
+
+span {
+  font-size: 20px;
+}
+
+div {
+  font-size: 40px;
+}
+
+@media (max-width: 222px) {
+  span {
+    font-size: 26px;
+  }
+
+  div {
+    font-size: 262px;
+  }
+}
