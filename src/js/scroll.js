@@ -6,4 +6,4 @@ document.querySelector('.header__scroll-ico').addEventListener('click', function
         behavior: 'smooth',
         block: 'start'
     })
-}) 
+})

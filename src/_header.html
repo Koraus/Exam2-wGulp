@@ -1,18 +1,18 @@
 
-<header class="header" >
+<header class="header">
 
 <nav class="header__nav">
-    <img src="./img/Logo-Montichello.svg" alt="Logo-Montichello">
+   <a class="logo" href="#" ><img src="./img/Logo-Montichello.svg" alt="Logo-Montichello"></a> 
     <ul class="nav__menu">
-            <li class="menu__item" >ABOUT US</li>
-            <li class="menu__item">PROJECTS</li>
-            <li class="menu__item">NEWS</li>
-            <li class="menu__item">CONTACT</li>
+            <li><a href="#" class="menu__item">ABOUT US</a></li>
+            <li><a href="#" class="menu__item">PROJECTS</a></li>
+            <li><a href="#" class="menu__item">NEWS</a></li>
+            <li><a href="#" class="menu__item">CONTACT</a></li>
     </ul>
-    <ul class="nav__social-ico">
-        <li class="menu__ico-item"><img src="./img/social-FB.svg" alt="Facebook ico"></li>
-        <li class="menu__ico-item"><img src="./img/social-TW.svg" alt="Twitter ico"></li>
-        <li class="menu__ico-item"><img src="./img/social-Inst.svg" alt="Instagrame ico"></li>
+    <ul class="nav__social-ico social-ico-bar">
+        <li class="social-ico-bar__facebook"><a href="https://www.facebook.com/">@@include('./img/social-FB.svg')</a></li>
+        <li class="social-ico-bar__twitter"><a href="https://www.twitter.com/">@@include('./img/social-TW.svg')</a</li>
+        <li class="social-ico-bar__instagram"><a href="https://www.instagram.com/"> @@include('./img/social-Inst.svg')</a></li>    
     </ul>
 </nav>
 
@@ -22,5 +22,13 @@
     <h3 class="header__h3-title">
         WE MAKE THE WORLD BEAUTIFUL EVERYDAY
     </h3>
-    <span class="header__scroll-ico-span"><img src="./img/header-Arrow-slide.svg" alt="Arrow slide button"> </span>
+    <ul class="nav__slider-status slider-status">
+        <li class="slider-status__item"><button class="slider-status__btn"></button></li>
+        <li class="slider-status__item"><button class="slider-status__btn"></button></li>
+        <li class="slider-status__item"><button class="slider-status__btn"></button></li>
+        <li class="slider-status__item"><button class="slider-status__btn"></button></li>
+        <li class="slider-status__item"><button class="slider-status__btn"></button></li>
+    </ul>
+    <span> <a class="header__scroll-ico" href="">@@include('./img/header-arrow-scroll.svg') </a> </span>
+
 </header>
