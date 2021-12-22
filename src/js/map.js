@@ -1,12 +1,3 @@
-
-document.querySelector('.header__scroll-ico').addEventListener('click', function (e) {
-    e.preventDefault()
-
-    document.getElementById('forScrollToProjects').scrollIntoView({
-        behavior: 'smooth',
-        block: 'start'
-    })
-}) 
 function initMap() {
     var options = {
        zoom:10,
@@ -31,4 +22,3 @@ function initMap() {
  
  }
 
- 
